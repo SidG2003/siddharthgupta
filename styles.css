@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080808;
+}
+#logo{
+    /* width: 50px; */
+    margin-top: 20px;
+    height: 50px;
+    padding-left: 36%;
+    /* align-items: center; */
+}
+#foot{
+    font-size: 20px;
+    color: #CADB2B;
+    width: 100%;
+    text-align: center;
+    padding: 400px 0;
+    /* background: #262626; */
+    font-weight: 300;
+    margin-top: 20px;
+}
+.name{
+    font-family: "Good Sans", Helvetica;
+    margin: 200px 500px;
+    /* padding-top: 125px; */
+    text-align: center;
+    font-size: 35pt;
+    font-weight: 900;
+    position: absolute;
+    color:#CADB2B;
+    line-height: 1.1;
+    /* letter-spacing: -0.07em; */
+}
+.demo-wrapper{
+    margin: 180px 350px;
+    /* align-items: center; */
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+    grid-gap: 0px;
+    position: absolute;
+}
+.demo-wrapper:hover {
+    cursor: pointer;
+    /* background-color: yellow; */
+    /* cursor: url("./Images/spin.gif"), auto; */
+    /* cursor: url("./Images/download.png"), auto; */
+}
+.square{
+    height: 40px;
+    width: 40px;
+    background-color: #926EAE;
+}

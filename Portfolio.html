@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiddharthGupta</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <script src="https://kit.fontawesome.com/6cb1b7c39a.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/6cb1b7c39a.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="Images/logo.png" class="logo"> -->
+                <img src="Images/Logo2.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#services">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="text-img">
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <!-- <h1>Hi, I'm <span>Siddharth</span><br>Gupta From India</h1> -->
+                    <h1>Hi, I'm <span>Siddharth</span></h1>
+                    <h2>Slide to view my different shades</h2>
+                </div>
+                <!-- -------------------img slider -->
+                <div class="container1">
+                    <img id="my-img" src="./Images/slidesnipJPG1.png">
+                    <input type="range" min="0" max="100" value="50" id="slider" oninput="slide()">
+                </div>
+                <script src="./script_img_slider.js"></script>
+                <!-- /img slider -->
+            </div>
+            
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="Images/user.png"> -->
+                    <img src="Images/p2.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, my name is Siddharth. I’m a Computer Science and Design student @IIIT Delhi. I’ve lived in this beautiful city of New Delhi since birth. I love combining creative work with technology. Happy to have you here!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Education</p>
+                        <p class="tab-links" onclick="opentab('education')">Interests</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Design</span><br>UI/UX, Graphic Design, 3D Modelling</li>
+                            <li><span>Coding</span><br>Python, Java, C/C++, HTML CSS JS</li>
+                            <li><span>Tools</span><br>Adobe CC, Figma, Blender, Canva, VS Code</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Present</span><br>B.Tech. in CSD - IIITD</li>
+                            <li><span>2007 -2020</span><br>The Mother's International School</li>
+                            <!-- <li><span></span><br>Android ios apps</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Indian Classical Music</span><br>Playing Sitar</li>
+                            <li><span>Films</span><br>Love watching them, would love to make some</li>
+                            <li><span>Travel</span><br>Wanna go places!</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Portfolio---------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <!-- <img src="Images/work-1.png"> -->
+                    <img src="Images/Projects/lamp1.jpg">
+                    <div class="layer layer1">
+                        <h3>3D-Modelling</h3>
+                        <p>Designing and modelling of a hyper-personalised lamp on Blender</p>
+                        <a href="./Project1.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Projects/DIS.jpg">
+                    <!-- <img src="Images/work-2.png"> -->
+                    <div class="layer layer2">
+                        <h3>BetterWorldNow</h3>
+                        <p>Interactive website to solve the issue of environmental degradation</p>
+                        <a href="./Project2.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <!-- <img src="Images/work-3.png"> -->
+                    <img src="Images/Projects/DBMS.JPG">
+                    <div class="layer layer3">
+                        <h3>Database Management System</h3>
+                        <p>Design of a DBMS for an online retail store</p>
+                        <a href="./Project3.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="./FluidColour/EntryPage.html" target="_blank" class="btn">Add Colour to your Life</a>
+        </div>
+    </div>
+    <!-- services  from video 47:07-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Gallery</h1>
+            <div class="services-list">
+                <div class="c1">
+                    <!-- <i class="fa-regular fa-briefcase"></i> -->
+                    <img src="./Images/work.png">
+                    <h2>Work</h2>
+                    <p>Project related</p>
+                    <a href="./Images1.html" target="_blank">View</a>  
+                </div>
+                <div class="c2">
+                    <!-- <i class="fa-regular fa-camera"></i> -->
+                    <!-- <i class="fa-regular fa-camera"></i> -->
+                    
+                    <img src="./Images/cam.png">
+                    <h2>Photography</h2>
+                    <p>Good ones!</p>
+                    <a href="./Images2.html" target="_blank">View</a>  
+                </div>
+                <div class="c3">
+                    <!-- <i class="fa-regular fa-music"></i> -->
+                    <img src="./Images/sitar.png">
+                    <h2>Interests</h2>
+                    <p>My passion</p>
+                    <a href="./Images3.html" target="_blank">View</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact-------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>siddharth21355@iiitd.ac.in</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9090909090</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./Images/SampleCV.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" requires>
+                        <input type="email" name="Name" placeholder="emailid" requires>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ SiddharthGupta 2023.</p>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+
+</body>
+</html>
