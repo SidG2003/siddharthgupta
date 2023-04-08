@@ -259,6 +259,51 @@ nav ul li a:hover::after{
     transform: translateY(-10px);
     /* transform: scale(110%); */
 }
+/*  */
+.services-list div .btn.btnG1{
+    /* display: block; */
+    margin: 15px auto;
+    width: fit-content;
+    border: 1px solid #8b9722;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 1s;
+}
+.services-list div .btn.btnG1:hover{
+    background: #080808;
+}
+.services-list div .btn.btnG2{
+    /* display: block; */
+    margin: 15px auto;
+    width: fit-content;
+    border: 1px solid #70AABC;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 1s;
+}
+.services-list div .btn.btnG2:hover{
+    background: #080808;
+    border: 1px solid #080808;
+}
+.services-list div .btn.btnG3{
+    /* display: block; */
+    margin: 15px auto;
+    width: fit-content;
+    border: 1px solid #6e5085;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 1s;
+}
+.services-list div .btn.btnG3:hover{
+    background: #080808;
+}
+
 /* portfolio/work--------------------------------------------------------- */
 #portfolio{
     padding: 30px 0;
@@ -340,7 +385,8 @@ nav ul li a:hover::after{
     transition: background 1s;
 }
 .btn:hover{
-    background: #CADB2B;
+    background: linear-gradient(to right, #926EAE, #70AABC,#CADB2B,#CEA5AD);
+    /* background: #CADB2B; */
 }
 /* contact-------------------- */
 #contact{
